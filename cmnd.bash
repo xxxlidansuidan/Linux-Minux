@@ -30,3 +30,7 @@ curl climagic\.org/txt/jb.txt|while read -r c n l;do printf "\e[1;${c}m%${COLUMN
 
 # Look at the full year calendar for 2013 and 2014 side by side. (Requires term width > 135).
 paste <(cal 2013) <(cal 2014) //put any year
+# same for current and next year:
+paste <(cal $(date +%Y)) <(cal $(($(date +%Y) + 1)))
+
+
