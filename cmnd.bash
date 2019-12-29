@@ -33,4 +33,6 @@ paste <(cal 2013) <(cal 2014) //put any year
 # same for current and next year:
 paste <(cal $(date +%Y)) <(cal $(($(date +%Y) + 1)))
 
-
+# How to drive someone completely nuts at Linux shell prompt (add to their ~/.bashrc):
+alias ls='ls -l | lolcat -a'
+ $ ls
