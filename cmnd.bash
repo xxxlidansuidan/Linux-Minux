@@ -36,3 +36,6 @@ paste <(cal $(date +%Y)) <(cal $(($(date +%Y) + 1)))
 # How to drive someone completely nuts at Linux shell prompt (add to their ~/.bashrc):
 alias ls='ls -l | lolcat -a'
  $ ls
+
+#All Font's photos in my drive will save //for sure check you drive
+convert -list font | awk -F: '/^\ *Font: /{print substr($NF,2)}' | while read font ; do convert -size 600x400 xc: -annotate +10+10 "$font" -gravity center -pointsize 42 -font "$font" -annotate +0+0 'ABCDEF\nabcdef\n012345\n!@$%%' -flatten "$font".png ; done 
