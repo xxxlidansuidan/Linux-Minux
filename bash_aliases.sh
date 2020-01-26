@@ -1,3 +1,8 @@
+alias bold=' echo -e "Normal \e[1mBold"'
+alias underline='echo -e "Normal \e[4mUnderlined"'
+alias blink='echo -e "Normal \e[5mBlink"'
+alias reverse='echo -e "Normal \e[7minverted"'
+alias hidden='echo -e "Normal \e[8mHidden"'
 
 #Font color
 alias green='echo -e "Default \e[32mGreen"'
