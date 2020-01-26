@@ -1,5 +1,7 @@
-#color code in bash
-30 Black, 31 Red, 32 Green, 33 Yellow, 34 Blue, 35 Magenta, 36 Cyan, 37 Light gray, 90 Dark gray, 91 Light red, 92 Light green, 93 Light yellow, 94 Light blue, 95 Light magenta, 96 Light cyan, 97 White;
+# Foreground colors 
+90 Dark gray, 30 Black, 31 Red, 32 Green, 33 Yellow, 34 Blue, 35 Magenta, 36 Cyan, 37 Light gray, 90 Dark gray, 91 Light red, 92 Light green, 93 Light yellow, 94 Light blue, 95 Light magenta, 96 Light cyan, 97 White;
+# Background colors
+100  Dark gray    101  Light red  102  Light green  103  Light yellow  104  Light blue   105  Light magenta  106  Light cyan 
 
 #working on bash========================
 alias bold=' echo -e "Normal \e[1mBold"'
